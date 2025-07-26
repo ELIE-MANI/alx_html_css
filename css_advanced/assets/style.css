@@ -1,6 +1,15 @@
 body {
   font-family: "Source Code Pro", monospace;
 }
+header{
+  height: 1093px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../images/Object.jpg');  
+background-size: cover;
+background-position: center;
+
+width: 100%;
+
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -8,8 +17,8 @@ nav {
     padding: 20px;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #000;
-    margin-bottom: 100px;
+ 
+    margin-bottom:0px;
  }
  nav ul li {
   list-style-type: none;
@@ -25,7 +34,7 @@ nav ul li a {
   
 }
 .hero {
-  background-color: #000;
+margin-top: 250px;
   height: 200px;
 }
 .hero h1 {
@@ -33,7 +42,7 @@ nav ul li a {
     color: #fff;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .hero .span {
     color:#fff;
@@ -57,8 +66,40 @@ position: absolute;
     cursor: pointer;
     position: relative;
     left: 42%;
-    top: 40px;
+    top: 50px;
+    transition: .4s;
   }
+.hero button:hover {
+  background-color: #A05BCF;
+  transform: scale(1.1);}
 .hero-text {
+  margin-top: 100px;
   text-align: center;
+  font-size: 24px;
+  margin-bottom:150px;
+
+  color: #fff;
+  font-weight: 700;
+}
+.hero-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+
+  margin-left:10%;
+  margin-right: 10%;
+
+}
+.hero-card h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 900;
+}
+.hero-card p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+  font-weight: 400;
 }
