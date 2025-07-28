@@ -128,3 +128,50 @@ position: absolute;
   .weather p{
     font-style: italic;
   }
+  .tutorials h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .tutorials .video {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 20px;
+  }
+.video1 .overlay {
+  position: relative;
+  bottom: 100px;
+  left: 40%;
+}
+.video1 {
+  height: 154px;
+  margin-bottom: 20px;
+
+}
+.tutorials .video h3{
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+.tutorials .video p{
+  font-size: 14px;
+  color: rgba(7, 22, 41, 0.5);
+  margin-bottom: 20px;
+}
+.video-text {
+  display: flex;
+   flex-direction: column 2; 
+   align-items: center; 
+   gap: 10px;
+   margin-bottom: 20px;
+}
+.video-text1 {
+  display: flex;
+   flex-direction: column 2; 
+   align-items: baseline; 
+   gap: 80px;
+ 
+}
