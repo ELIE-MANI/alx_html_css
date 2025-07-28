@@ -103,3 +103,28 @@ position: absolute;
   margin-top: 5px;
   font-weight: 400;
 }
+.weather {
+  height: 392px;
+  background-color: #C271FF;
+  display: flex;
+  flex-direction: column 2;
+  align-items: center;
+  color: white;
+
+}
+
+.weather div {
+  position: relative;
+  left: 10%;
+  line-height: 1.6;
+  margin-left: 50px;  
+}
+.weather  blockquote {
+  margin-bottom: 20px;
+  }
+  .weather h3 {
+    font-weight: bold;
+  }
+  .weather p{
+    font-style: italic;
+  }
