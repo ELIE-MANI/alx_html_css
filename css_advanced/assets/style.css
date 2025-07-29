@@ -267,3 +267,23 @@ margin-top: 50px;
   font-size: 14px;
     width: 350px;
 }
+footer{
+  background-color: #071629;
+  height: 249px;
+}
+.footer {
+padding: 80px;
+display: flex;
+justify-content: space-between;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 0;
+}
+footer p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
