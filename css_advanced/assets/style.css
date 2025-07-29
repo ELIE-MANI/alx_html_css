@@ -237,3 +237,33 @@ margin-bottom: 20px;
   transform: scale(1.1);
   background-color: #A05BCF;
 }
+
+.faq  h2{
+font-size: 32px;
+font-weight: 400;
+color: #071629;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+.faq-item {
+  display: flex;
+  flex-direction: column 2;
+justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+ gap: 50px;
+}
+.faq-item h3 { 
+  color: #071629;
+  font-weight: bold;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+.faq-item p{
+  margin-bottom: 20px;
+  color: rgba(7, 22, 41, 0.5);
+  font-size: 14px;
+    width: 350px;
+}
