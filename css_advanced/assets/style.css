@@ -175,3 +175,65 @@ position: absolute;
    gap: 80px;
  
 }
+.membership {
+  background-color: #071629;
+  height: 502px;
+  margin-top: 100px;
+ 
+ 
+}
+.membership h2 {
+  font-size: 24px;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 100px;
+   display: flex;
+  flex-direction: row ;
+  justify-content: center; 
+  padding-top: 100px;
+  gap: 10px;
+
+  
+}
+
+.free {
+  display: flex;
+  justify-content: space-between;
+   margin-left: 15%;
+  margin-right: 10%;
+  gap: 20px;
+}
+.free h3{
+font-weight: 600;
+font-size: 16px;
+color: white;
+margin-bottom: 20px;
+}
+.free img{
+  margin-bottom: 20px;
+}
+.free p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 200;
+  width: 215px;
+  margin-bottom: 60px;
+}
+
+.membership button{
+  background-color: #C271FF;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  position: relative;
+  left: 45%;
+  cursor: pointer;
+  transition: .4s;
+
+
+}
+.membership button:hover{
+  transform: scale(1.1);
+  background-color: #A05BCF;
+}
