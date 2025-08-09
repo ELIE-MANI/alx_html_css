@@ -28,6 +28,7 @@ nav {
   color: white;
   display: inline-block;
   padding: 8px 16px;
+  font-size: 12px;
 }
 nav  img{
 width: 161px;
@@ -69,4 +70,52 @@ height: 32px;
   background-color: #FF6565; 
   transform: scale(1.1);
   transition: .4s;
+  
+}
+.what-we-do{
+  height: 695px;
+  margin-top: 130px;
+}
+
+ .what-1 {
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
+}
+.what-1 h2{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 40px
+}
+.what-1 p{
+  font-weight: 300;
+  line-height: 2;
+  font-size: 16px;
+}
+.what-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 13%;
+  margin-top: 103px;
+  gap: 58px;
+
+}
+.what-content img{
+  width: 65px;
+  height: 65px;
+  margin-bottom:40px;
+}
+.what-content h3{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.what-content p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
 }
