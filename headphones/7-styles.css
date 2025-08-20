@@ -108,6 +108,12 @@ justify-content: center;
   width: 65px;
   height: 65px;
   margin-bottom:40px;
+
+}
+.what-content img:hover{
+  margin: 2rem auto;
+transition: transform .3s ease;
+
 }
 .what-content h3{
   font-size: 18px;
@@ -256,9 +262,4 @@ footer p {
   font-weight: 100;
   margin-top: 60px;
   font-size: 12px;
-}
-
-#box {
-  
-
 }
